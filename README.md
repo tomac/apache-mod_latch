@@ -19,7 +19,7 @@ mod_latch only supports Apache 2.4 (2.2 is not supported) because it uses an Apa
 
 The apxs2 command (with root permissions) will compile and install the Apache module.
 
-Now mod_latch is ready to be used. Just add a few lines in the directory you want to protect with Latch and replace MY_APP_ID, MY_SECRET_KEY and MY_ACCOUNT_ID with your corresponding values that you can get from the [Latch developers website]O(https://latch.elevenpaths.com).
+Now mod_latch is ready to be used. Just add a few lines in the directory you want to protect with Latch and replace MY_APP_ID, MY_SECRET_KEY and MY_ACCOUNT_ID with your corresponding values that you can get from the [Latch developers website](https://latch.elevenpaths.com).
 
 <Directory /var/www/admin/>
     LatchEnabled On
