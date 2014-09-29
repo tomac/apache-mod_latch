@@ -21,9 +21,11 @@ The apxs2 command (with root permissions) will compile and install the Apache mo
 
 Now mod_latch is ready to be used. Just add a few lines in the directory you want to protect with Latch and replace MY_APP_ID, MY_SECRET_KEY and MY_ACCOUNT_ID with your corresponding values that you can get from the [Latch developers website](https://latch.elevenpaths.com).
 
+```
 <Directory /var/www/admin/>
     LatchEnabled On
     LatchAppId MY_APP_ID
     LatchSecretKey MY_SECRET_KEY
     LatchAccountID MY_ACCOUNT_ID
 </Directory>
+```
